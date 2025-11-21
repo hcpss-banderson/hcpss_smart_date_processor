@@ -32,7 +32,7 @@ class Override {
   }
 
   public static function createFromExdate(string $exdate): Override {
-    return new Override(DateTimeImmutable::createFromFormat('Ymd\THis', $exdate));sr
+    return new Override(DateTimeImmutable::createFromFormat('Ymd\THis', $exdate));
   }
 
   public static function createFromEventArray(array $recurrence): Override {
