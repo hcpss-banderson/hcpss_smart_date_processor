@@ -1,0 +1,9 @@
+name: 'HCPSS Smart Date Processor'
+type: module
+description: 'Provides migration processor for smart dates.'
+package: HCPSS
+core_version_requirement: ^10 || ^11
+dependencies:
+  - migrate:migrate
+  - smart_date:smart_date
+  - smart_date:smart_date_recur

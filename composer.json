@@ -1,0 +1,12 @@
+{
+    "name": "drupal/hcpss_smart_date_processor",
+    "type": "drupal-module",
+    "description": "Provides migration processor for smart dates.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.3",
+        "drupal/core": "^9.2 || ^10",
+        "drupal/smart_date": "^4.2",
+        "simshaun/recurr": "^5"
+    }
+}
