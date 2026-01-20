@@ -32,6 +32,9 @@ class Override {
   }
 
   public static function createFromExdate(string $exdate): Override {
+     if (strlen($exdate) == 8) {
+      $exdate .= 'T000000';
+    }
     return new Override(DateTimeImmutable::createFromFormat('Ymd\THis', $exdate));
   }
 
